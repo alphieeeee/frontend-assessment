@@ -43,4 +43,4 @@ npm install ./gsap-bonus.tgz
 
 ###### Bonus points
 * Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
-* Because white space is Not A Number so its `NaN` in javascript then convert it to lowercase so you will get `nan`.
+* Because the expression + 'a' is attempting to use the unary plus operator on a string 'a'. The unary plus operator tries to convert its operand to a number. Since 'a' is not a valid number, this conversion results in NaN (Not-a-Number). Then the rest of the expression concatenates the strings 'b', 'a', NaN, and 'a' together. Finally, the toLowerCase() method converts the resulting string to all lowercase letters.
