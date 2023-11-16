@@ -34,10 +34,8 @@ npm run build
 npm run lint
 ```
 
-### About [GreenSock](https://gsap.com/docs/v3/) Plugin
-
-## See [GSAP INSTALLATION](https://gsap.com/docs/v3/Installation/)
-To Install GSAP Plugin Make sure the "gsap-bonus.tgz" file is in the root directory of the project and run the following command in the terminal.
+## See [GSAP](https://gsap.com/docs/v3/Installation/) for Installation
+To Install GSAP Plugin Make sure the "gsap-bonus.tgz" file is in the root directory of the project and run the following command in the terminal. About [GreenSock](https://gsap.com/docs/v3/) plugin.
 
 ```sh
 npm install ./gsap-bonus.tgz
